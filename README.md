@@ -26,8 +26,8 @@ Or install only the workbook automation skill:
 skills add vectojs/numera-skills --skill numera-workbook-automation --agent '*'
 ```
 
-The skill currently targets `@vectojs/numera-cli@0.2.0`. Install the CLI with
-`npm install --global @vectojs/numera-cli@0.2.0` before running workbook
+The skill currently targets `@vectojs/numera-cli@0.2.1`. Install the CLI with
+`npm install --global @vectojs/numera-cli@0.2.1` before running workbook
 commands.
 
 ## Verify

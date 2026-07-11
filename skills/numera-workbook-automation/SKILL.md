@@ -12,7 +12,7 @@ written output before reporting success.
 ## Required workflow
 
 1. Confirm `numera` is available. If it is missing, install the exact supported
-   CLI: `npm install --global @vectojs/numera-cli@0.2.0`.
+   CLI: `npm install --global @vectojs/numera-cli@0.2.1`.
 2. Inspect the workbook: `numera inspect workbook.xlsx`.
 3. Read the target range: `numera get workbook.xlsx "Budget" A1:C10`.
 4. Write to a distinct output with exactly one value flag:

@@ -39,3 +39,7 @@ test("OpenAI interface metadata is concise and invokes the skill explicitly", ()
   );
   expect(openAiMetadata).toContain("$numera-workbook-automation");
 });
+
+test("skill pins the CLI release that enforces one value flag", () => {
+  expect(skill).toContain("@vectojs/numera-cli@0.2.1");
+});
