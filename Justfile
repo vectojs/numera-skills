@@ -2,4 +2,7 @@ default:
     @just --list
 
 verify:
-    bun test
+    bun run verify
+
+skills-list:
+    skills add . --list --full-depth

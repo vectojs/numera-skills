@@ -1,0 +1,19 @@
+name: Skill behavior bug
+description: Report a reproducible unsafe, missing, or incorrect Agent workflow.
+title: "bug: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Prompt and pressure conditions
+      description: Provide the user request and any time, authority, or overwrite pressure.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Actual and expected behavior
+      description: Include the Agent host, observed commands, and expected safety behavior.
+    validations:
+      required: true

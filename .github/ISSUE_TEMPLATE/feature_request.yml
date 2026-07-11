@@ -1,0 +1,19 @@
+name: Skill request
+description: Propose one focused, reusable Numera Agent capability.
+title: "feat: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Concrete Agent scenario
+      description: State the user request, target Numera interface, and likely baseline failure.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Behavioral acceptance criteria
+      description: Explain what the Agent must do after reading the skill.
+    validations:
+      required: true

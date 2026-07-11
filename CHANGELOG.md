@@ -7,3 +7,6 @@ All notable changes to this project are documented in this file.
 ### Added
 
 - Initial safe local workbook automation skill.
+- RED/GREEN-tested guardrails requiring Numera CLI, preflight inspection,
+  explicit typed writes, distinct outputs, and output verification.
+- Multi-Agent discovery metadata and GitHub repository governance.

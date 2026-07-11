@@ -1,0 +1,4 @@
+interface:
+  display_name: "Numera Workbook Automation"
+  short_description: "Safely inspect and edit local Numera workbooks"
+  default_prompt: "Use $numera-workbook-automation to inspect and update this local workbook without overwriting its source."

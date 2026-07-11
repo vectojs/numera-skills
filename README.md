@@ -12,10 +12,29 @@ Copilot, KiloCode, and compatible Agent Skills hosts.
 - `numera-workbook-automation`: inspect, read, and transform local JSON, CSV,
   and XLSX workbooks safely.
 
+## Install
+
+Install all skills for every detected Agent host:
+
+```bash
+skills add vectojs/numera-skills --all
+```
+
+Or install only the workbook automation skill:
+
+```bash
+skills add vectojs/numera-skills --skill numera-workbook-automation --agent '*'
+```
+
+The skill currently targets `@vectojs/numera-cli@0.2.0`. Install the CLI with
+`npm install --global @vectojs/numera-cli@0.2.0` before running workbook
+commands.
+
 ## Verify
 
 ```bash
 just verify
+just skills-list
 ```
 
 ## License

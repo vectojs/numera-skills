@@ -2,7 +2,8 @@
 
 ## Supported Versions
 
-Security fixes are made in the latest published Numera Skills release.
+Security fixes are made on the default branch until the first tagged release,
+then on the latest supported release.
 
 ## Reporting a Vulnerability
 
